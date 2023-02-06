@@ -10,8 +10,9 @@ describe('effect', function () {
         })
         //
         expect(nextAge).toBe(11);
-        // //update
-        // user.age++;
-        // expect(nextAge).toBe(12);
+
+        //update
+        user.age++;
+        expect(nextAge).toBe(12);
     });
 });
